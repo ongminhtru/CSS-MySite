@@ -1,0 +1,68 @@
+body{
+  background-color: #fcf9ec;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  font-size: 4rem;
+  margin: 70px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #12d3cf;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #12d3cf;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #12d3cf;
+}
+
+h4 {
+  display: inline-block;
+}
+div {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.top-container {
+  background-color: #b0f4e6;
+  padding: 10px;
+  text-align: center;
+}
+.bottom-cloud {
+  position: absolute;
+}
+.top-cloud {
+  position: absolute;
+    right: 300px;
+    top:30px;
+}
+
+.mid-container {
+text-align: center;
+
+}
+.bottom-container {
+ padding-left: 2rem;
+ padding-right: 2rem;
+}
+.profile-img {
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+}
+.margin-left {
+  position: absolute;
+  left: 20rem;
+}
+.margin-left2 {
+  margin-left: 1.5rem
+}
+.inline {
+  display: inline-block;
+}
