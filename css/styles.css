@@ -1,14 +1,18 @@
-body{
-  background-color: #e4f9f5;
+body {
+  text-align: center;
   margin: 0;
   font-family: 'Merriweather', serif;
+  background-color: #e4f9f5;
 }
+
 h1 {
+  margin: 0 auto 0 auto;
   font-size: 5rem;
-  margin: 70px auto 0 auto;
+  width: 50%;
   font-family: 'Sacramento', cursive;
   color: #11999e;
 }
+
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
@@ -21,63 +25,39 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999e;
 }
-
-h4 {
-  display:inline-table;
-  line-height: 2;
-  clear:left;
-}
-div {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-footer {
-  background-color: #30e3ca;
-  padding: 0.5rem;
-}
-span{
-  text-decoration-line: underline;
-}
 p{
   color: #11999e;
+}
+span {
+  text-decoration: underline;
 }
 
 .top-container {
   background-color: #30e3ca;
-  padding: 10px;
-  text-align: center;
+  position: relative;
+  padding-top: 100px;
 }
+
 .bottom-cloud {
   position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
+
 .top-cloud {
   position: absolute;
-    right: 300px;
-    top:30px;
+  right: 300px;
+  top: 50px;
 }
 
-.mid-container {
-text-align: center;
-
-}
-.bottom-container {
- padding-left: 2rem;
- padding-right: 2rem;
-}
 .profile-img {
   margin-top: 10px;
   height: 150px;
   width: 150px;
 }
-.margin-left {
-  position: absolute;
-  left: 20rem;
-  width: 70%;
-}
-.margin-left2 {
-  float: right;
-  margin-left: 2rem;
-}
-.inline {
-  display: inline-block;
+
+.info-container {
+  text-align: left;
+  margin:auto 2rem auto 2rem;
+  line-height: 3;
 }
