@@ -25,11 +25,37 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999e;
 }
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-size: 70%;
+}
+
+h6{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 50%;
+  margin: 1rem auto 1rem auto;
+}
+
 p{
   color: #11999e;
 }
 span {
   text-decoration: underline;
+}
+hr{
+  border-top: 8px dotted gray;
+  width: 6rem;
+}
+a {
+  text-decoration-line: none;
+  color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+  background-color: #30e3ca;
+  padding: 1rem;
 }
 
 .top-container {
@@ -49,15 +75,26 @@ span {
   right: 300px;
   top: 50px;
 }
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
 
 .profile-img {
-  margin-top: 10px;
-  height: 150px;
-  width: 150px;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
 }
 
 .info-container {
   text-align: left;
   margin:auto 2rem auto 2rem;
   line-height: 3;
+}
+.inline {
+  display: inline;
+}
+.margin-left {
+  margin-left: 30px;
 }
